@@ -509,7 +509,6 @@ class TVC: UITableViewController {
         
         let ip = self.tableView.indexPathForSelectedRow
         if (ip?.row != nil){
-            print(ip!.row)
             let cc = segue.destinationViewController as! VC
             if(orden.isEmpty){
                 cc.nom = self.nombre[ip!.row]
