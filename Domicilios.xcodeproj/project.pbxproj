@@ -7,23 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074408D11D84A93C00D30E70 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408D01D84A93C00D30E70 /* logo.png */; };
+		074408D71D84ACB200D30E70 /* dom.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408D61D84ACB200D30E70 /* dom.png */; };
+		074408DB1D84B48700D30E70 /* Valor del domicilio.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408DA1D84B48700D30E70 /* Valor del domicilio.png */; };
+		074408DD1D84B52800D30E70 /* Tiempo del domicilio.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408DC1D84B52800D30E70 /* Tiempo del domicilio.png */; };
+		074408E31D84BDE600D30E70 /* Categorias.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408E21D84BDE600D30E70 /* Categorias.png */; };
+		074408E51D84BE2500D30E70 /* Nombre.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408E41D84BE2500D30E70 /* Nombre.png */; };
+		074408E71D84BE3700D30E70 /* Rating.png in Resources */ = {isa = PBXBuildFile; fileRef = 074408E61D84BE3700D30E70 /* Rating.png */; };
+		074BD1541D824CEE008EE834 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1531D824CEE008EE834 /* placeholder.jpg */; };
+		074BD1561D8252AB008EE834 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BD1551D8252AB008EE834 /* CustomCell.swift */; };
+		074BD1581D82623B008EE834 /* TVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BD1571D82623B008EE834 /* TVC2.swift */; };
+		074BD15F1D8302A1008EE834 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BD15D1D8302A1008EE834 /* Realm.framework */; };
+		074BD1601D8302A1008EE834 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BD15E1D8302A1008EE834 /* RealmSwift.framework */; };
+		074BD1611D8302CD008EE834 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BD15D1D8302A1008EE834 /* Realm.framework */; };
+		074BD1621D8302CD008EE834 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 074BD15D1D8302A1008EE834 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		074BD1631D8302CD008EE834 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BD15E1D8302A1008EE834 /* RealmSwift.framework */; };
+		074BD1641D8302CD008EE834 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 074BD15E1D8302A1008EE834 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		074BD1681D8304EE008EE834 /* RealmRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BD1671D8304EE008EE834 /* RealmRestaurante.swift */; };
+		074BD16B1D8368DB008EE834 /* ED.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1691D8368DB008EE834 /* ED.png */; };
+		074BD16C1D8368DB008EE834 /* EG.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD16A1D8368DB008EE834 /* EG.png */; };
+		074BD16E1D83AA09008EE834 /* TVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BD16D1D83AA09008EE834 /* TVC3.swift */; };
+		074BD1741D8451BF008EE834 /* orden.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1731D8451BF008EE834 /* orden.png */; };
+		074BD17E1D845C9A008EE834 /* ordenar.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD17D1D845C9A008EE834 /* ordenar.png */; };
+		074BD1801D846859008EE834 /* Arepas.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD17F1D846859008EE834 /* Arepas.png */; };
+		074BD1821D846965008EE834 /* CustomCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BD1811D846965008EE834 /* CustomCell2.swift */; };
+		074BD1841D846ED8008EE834 /* Desayunos.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1831D846ED7008EE834 /* Desayunos.png */; };
+		074BD1861D846F80008EE834 /* Pollo.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1851D846F80008EE834 /* Pollo.png */; };
+		074BD1881D846FED008EE834 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1871D846FED008EE834 /* Pizza.png */; };
+		074BD18A1D847058008EE834 /* Comida Mexicana.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD1891D847058008EE834 /* Comida Mexicana.png */; };
+		074BD18C1D847114008EE834 /* Hamburguesas y Perros Calientes.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD18B1D847114008EE834 /* Hamburguesas y Perros Calientes.png */; };
+		074BD18E1D8472BE008EE834 /* Sanduches.png in Resources */ = {isa = PBXBuildFile; fileRef = 074BD18D1D8472BE008EE834 /* Sanduches.png */; };
+		074BD1921D847599008EE834 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BD1911D847599008EE834 /* VC.swift */; };
 		076D7E021D82077400914EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D7E011D82077400914EE5 /* AppDelegate.swift */; };
-		076D7E041D82077400914EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D7E031D82077400914EE5 /* ViewController.swift */; };
 		076D7E071D82077400914EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076D7E051D82077400914EE5 /* Main.storyboard */; };
 		076D7E0A1D82077400914EE5 /* Domicilios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 076D7E081D82077400914EE5 /* Domicilios.xcdatamodeld */; };
 		076D7E0C1D82077400914EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076D7E0B1D82077400914EE5 /* Assets.xcassets */; };
 		076D7E0F1D82077400914EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076D7E0D1D82077400914EE5 /* LaunchScreen.storyboard */; };
+		076D7E171D82089000914EE5 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D7E161D82089000914EE5 /* TVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		074BD1651D8302CD008EE834 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				074BD1641D8302CD008EE834 /* RealmSwift.framework in Embed Frameworks */,
+				074BD1621D8302CD008EE834 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		074408D01D84A93C00D30E70 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		074408D61D84ACB200D30E70 /* dom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dom.png; sourceTree = "<group>"; };
+		074408DA1D84B48700D30E70 /* Valor del domicilio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Valor del domicilio.png"; sourceTree = "<group>"; };
+		074408DC1D84B52800D30E70 /* Tiempo del domicilio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiempo del domicilio.png"; sourceTree = "<group>"; };
+		074408E21D84BDE600D30E70 /* Categorias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Categorias.png; sourceTree = "<group>"; };
+		074408E41D84BE2500D30E70 /* Nombre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nombre.png; sourceTree = "<group>"; };
+		074408E61D84BE3700D30E70 /* Rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rating.png; sourceTree = "<group>"; };
+		074BD1531D824CEE008EE834 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		074BD1551D8252AB008EE834 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		074BD1571D82623B008EE834 /* TVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC2.swift; sourceTree = "<group>"; };
+		074BD15D1D8302A1008EE834 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		074BD15E1D8302A1008EE834 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		074BD1671D8304EE008EE834 /* RealmRestaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRestaurante.swift; sourceTree = "<group>"; };
+		074BD1691D8368DB008EE834 /* ED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ED.png; sourceTree = "<group>"; };
+		074BD16A1D8368DB008EE834 /* EG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EG.png; sourceTree = "<group>"; };
+		074BD16D1D83AA09008EE834 /* TVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC3.swift; sourceTree = "<group>"; };
+		074BD1731D8451BF008EE834 /* orden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orden.png; sourceTree = "<group>"; };
+		074BD17D1D845C9A008EE834 /* ordenar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordenar.png; sourceTree = "<group>"; };
+		074BD17F1D846859008EE834 /* Arepas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arepas.png; sourceTree = "<group>"; };
+		074BD1811D846965008EE834 /* CustomCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell2.swift; sourceTree = "<group>"; };
+		074BD1831D846ED7008EE834 /* Desayunos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desayunos.png; sourceTree = "<group>"; };
+		074BD1851D846F80008EE834 /* Pollo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pollo.png; sourceTree = "<group>"; };
+		074BD1871D846FED008EE834 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		074BD1891D847058008EE834 /* Comida Mexicana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Comida Mexicana.png"; sourceTree = "<group>"; };
+		074BD18B1D847114008EE834 /* Hamburguesas y Perros Calientes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hamburguesas y Perros Calientes.png"; sourceTree = "<group>"; };
+		074BD18D1D8472BE008EE834 /* Sanduches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sanduches.png; sourceTree = "<group>"; };
+		074BD1911D847599008EE834 /* VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		076D7DFE1D82077400914EE5 /* Domicilios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domicilios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D7E011D82077400914EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		076D7E031D82077400914EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		076D7E061D82077400914EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		076D7E091D82077400914EE5 /* Domicilios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Domicilios.xcdatamodel; sourceTree = "<group>"; };
 		076D7E0B1D82077400914EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076D7E0E1D82077400914EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		076D7E101D82077400914EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076D7E161D82089000914EE5 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +104,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074BD1611D8302CD008EE834 /* Realm.framework in Frameworks */,
+				074BD1601D8302A1008EE834 /* RealmSwift.framework in Frameworks */,
+				074BD1631D8302CD008EE834 /* RealmSwift.framework in Frameworks */,
+				074BD15F1D8302A1008EE834 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074BD1521D824CE2008EE834 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				074408E61D84BE3700D30E70 /* Rating.png */,
+				074408E41D84BE2500D30E70 /* Nombre.png */,
+				074408E21D84BDE600D30E70 /* Categorias.png */,
+				074408DC1D84B52800D30E70 /* Tiempo del domicilio.png */,
+				074408DA1D84B48700D30E70 /* Valor del domicilio.png */,
+				074408D61D84ACB200D30E70 /* dom.png */,
+				074408D01D84A93C00D30E70 /* logo.png */,
+				074BD18D1D8472BE008EE834 /* Sanduches.png */,
+				074BD18B1D847114008EE834 /* Hamburguesas y Perros Calientes.png */,
+				074BD1891D847058008EE834 /* Comida Mexicana.png */,
+				074BD1871D846FED008EE834 /* Pizza.png */,
+				074BD1851D846F80008EE834 /* Pollo.png */,
+				074BD1831D846ED7008EE834 /* Desayunos.png */,
+				074BD17F1D846859008EE834 /* Arepas.png */,
+				074BD17D1D845C9A008EE834 /* ordenar.png */,
+				074BD1731D8451BF008EE834 /* orden.png */,
+				074BD1691D8368DB008EE834 /* ED.png */,
+				074BD16A1D8368DB008EE834 /* EG.png */,
+				074BD1531D824CEE008EE834 /* placeholder.jpg */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		076D7DF51D82077400914EE5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +159,22 @@
 		076D7E001D82077400914EE5 /* Domicilios */ = {
 			isa = PBXGroup;
 			children = (
+				074BD15D1D8302A1008EE834 /* Realm.framework */,
+				074BD15E1D8302A1008EE834 /* RealmSwift.framework */,
+				074BD1521D824CE2008EE834 /* src */,
 				076D7E011D82077400914EE5 /* AppDelegate.swift */,
-				076D7E031D82077400914EE5 /* ViewController.swift */,
+				074BD1671D8304EE008EE834 /* RealmRestaurante.swift */,
 				076D7E051D82077400914EE5 /* Main.storyboard */,
 				076D7E0B1D82077400914EE5 /* Assets.xcassets */,
 				076D7E0D1D82077400914EE5 /* LaunchScreen.storyboard */,
+				076D7E161D82089000914EE5 /* TVC.swift */,
+				074BD1571D82623B008EE834 /* TVC2.swift */,
+				074BD16D1D83AA09008EE834 /* TVC3.swift */,
+				074BD1911D847599008EE834 /* VC.swift */,
 				076D7E101D82077400914EE5 /* Info.plist */,
 				076D7E081D82077400914EE5 /* Domicilios.xcdatamodeld */,
+				074BD1551D8252AB008EE834 /* CustomCell.swift */,
+				074BD1811D846965008EE834 /* CustomCell2.swift */,
 			);
 			path = Domicilios;
 			sourceTree = "<group>";
@@ -77,6 +189,8 @@
 				076D7DFA1D82077400914EE5 /* Sources */,
 				076D7DFB1D82077400914EE5 /* Frameworks */,
 				076D7DFC1D82077400914EE5 /* Resources */,
+				074BD1651D8302CD008EE834 /* Embed Frameworks */,
+				074BD1661D8302EE008EE834 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,21 +240,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074BD16B1D8368DB008EE834 /* ED.png in Resources */,
+				074BD17E1D845C9A008EE834 /* ordenar.png in Resources */,
+				074408D71D84ACB200D30E70 /* dom.png in Resources */,
+				074BD1881D846FED008EE834 /* Pizza.png in Resources */,
+				074408E31D84BDE600D30E70 /* Categorias.png in Resources */,
+				074BD1801D846859008EE834 /* Arepas.png in Resources */,
+				074408E71D84BE3700D30E70 /* Rating.png in Resources */,
 				076D7E0F1D82077400914EE5 /* LaunchScreen.storyboard in Resources */,
+				074BD1541D824CEE008EE834 /* placeholder.jpg in Resources */,
 				076D7E0C1D82077400914EE5 /* Assets.xcassets in Resources */,
+				074408E51D84BE2500D30E70 /* Nombre.png in Resources */,
+				074BD18A1D847058008EE834 /* Comida Mexicana.png in Resources */,
+				074BD1741D8451BF008EE834 /* orden.png in Resources */,
+				074BD1841D846ED8008EE834 /* Desayunos.png in Resources */,
+				074BD18C1D847114008EE834 /* Hamburguesas y Perros Calientes.png in Resources */,
+				074BD1861D846F80008EE834 /* Pollo.png in Resources */,
+				074408D11D84A93C00D30E70 /* logo.png in Resources */,
+				074BD18E1D8472BE008EE834 /* Sanduches.png in Resources */,
 				076D7E071D82077400914EE5 /* Main.storyboard in Resources */,
+				074BD16C1D8368DB008EE834 /* EG.png in Resources */,
+				074408DB1D84B48700D30E70 /* Valor del domicilio.png in Resources */,
+				074408DD1D84B52800D30E70 /* Tiempo del domicilio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		074BD1661D8302EE008EE834 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		076D7DFA1D82077400914EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074BD1581D82623B008EE834 /* TVC2.swift in Sources */,
+				074BD1821D846965008EE834 /* CustomCell2.swift in Sources */,
+				074BD1921D847599008EE834 /* VC.swift in Sources */,
 				076D7E0A1D82077400914EE5 /* Domicilios.xcdatamodeld in Sources */,
-				076D7E041D82077400914EE5 /* ViewController.swift in Sources */,
+				076D7E171D82089000914EE5 /* TVC.swift in Sources */,
+				074BD1561D8252AB008EE834 /* CustomCell.swift in Sources */,
+				074BD1681D8304EE008EE834 /* RealmRestaurante.swift in Sources */,
+				074BD16E1D83AA09008EE834 /* TVC3.swift in Sources */,
 				076D7E021D82077400914EE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Domicilios",
+				);
 				INFOPLIST_FILE = Domicilios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.cabr93.Domicilios;
@@ -265,6 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Domicilios",
+				);
 				INFOPLIST_FILE = Domicilios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.cabr93.Domicilios;
@@ -291,6 +454,7 @@
 				076D7E151D82077400914EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
